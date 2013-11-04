@@ -1,0 +1,6 @@
+1. create rating system/gadget
+2. calculate and display top ten poems
+3. calculate and display top ten most recent poems
+4. validate correctly poem with Javascript
+5. server cleaning of data on the server
+6. write database queries

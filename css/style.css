@@ -1,0 +1,95 @@
+/* 
+   style.css
+   Copyright, 2013 Pedro A. Flores Prieto & Samira C. Oliva Madrigal
+   CS174_hw3
+*/
+
+
+/*BASIC STYLE*/
+html,body{height:100%;}
+*{font-family:Menlo, Courier;font-size:12px;}
+body {margin:0;padding:0;color:#332917;background:#DBFEF8;}
+#titlebg{background-image:url(header.png);}
+h1{font-size:50px;color:#0FDDAF;text-align:center;}
+h2{font-size:12px;}
+img{padding:.5%;repeat:no;}
+input:focus{outline:none}
+#bgtitle{background-color:#red; text-align:center;}
+img{align:left;}
+input,textarea{color:red;border:solid 1px #d2d2d2;padding:2px;}
+a{align:right;font-size:9px;color:#000000;}
+#login{background:#DBFEF8;} /*mint blue*/
+a:focus{outline:none}
+a:link{color: purple; text-decoration: none;}
+a:visited{color: #006600; text-decoration:none}
+a:hover{color: red; text-decoration:none} /*steelblue*/
+a:active{color: purple; text-decoration:none}
+select{border:solid 1px #9b9b9b;color:#717171;}
+hr {background-color: #6600CC; color: azure; height: 5px}
+.links{margin:100px;}
+#links{margin-right:20px; width:170px;color:#6600CC;}
+/*LAYOUT*/
+#layout{position:absolute;width:970px;margion:0;}
+#body{position:relative;}
+#content
+.f1{ margin:0 auto;}
+.r{margin: 0 auto;}
+text {font-size:9px;font-weight:bold;}
+.list{margin-right:20px;} 
+
+
+
+/* LANDING PAGE */
+.atable{
+    background-color: darkgray; 
+    border-right-width: 9px;
+    border-right-style: solid;
+    border-right-color: #B0C4DE; 
+    border-bottom-color:#2F4F4F;
+    border-bottom-width: 9px;
+    border-bottom-style: solid;
+}
+.rToLeft{
+	background-color: darkgray;
+	border-left-width: 9px;
+	border-left-style: solid;
+	border-left-color: #B0C4DE;
+    	border-bottom-color:#2F4F4F;
+    	border-bottom-width: 9px;
+	border-bottom-style: solid;
+}
+
+.list{padding:12px;align:"right";}
+
+#aImg{padding:100px;}
+#aSpc{padding:100px;}
+
+/*LANGUAGES*/
+.spaziodiLingue{padding:12px;}
+
+/*SITEMAP*/
+.smTable{
+    background-image:"";
+    background-color:;
+    border-right-width: 9px;
+    border-right-style: solid;
+    border-right-color: azure; 
+    border-bottom-color:azure;
+    border-bottom-width: 9px;
+    border-bottom-style: solid;
+}
+
+.smT{font-family:Menlo, Courier, Cochin,sans-serif;font-size:27px;padding:10%;color:#332917;}
+.smLs:link{color:#000000;link-visited{color:#006600}
+.smLs:link{hover{color:#FFFFFF;}
+.smLs:active{color:azure;}
+.nFtxt{font-family:Menlo, Courier, Cochin,sans-serif;font-size:27px;padding:10%;color:#332917;}
+
+
+/*404*/
+.p404A{
+    background-image:"";
+    background-color:red;
+}
+
+
